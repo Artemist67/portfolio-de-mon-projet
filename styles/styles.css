@@ -1,0 +1,46 @@
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI',
+    sans-serif;
+    line-height: 1.6;
+    background: url(https://www.aquaportail.com/pictures1106/anemone-clown_1307889811-fleur.jpg);
+    background-repeat: no-repeat;
+    color: white;
+    scroll-behavior: smooth;
+
+}
+nav{
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    position: sticky;
+    top:0;
+    z-index: 100;
+}
+header{
+    text-align: center;
+    padding: 4rem 2rem;
+}
+highlight{
+    color: #00fffe;
+    font-weight: bold;
+
+}
+section{
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin:auto;
+}
+.skills{display: flex;
+    flex-wrap: wrap;
+    gap:1 rem;
+
+    ;}
+.skills li{
+    background-color:#1a1a1a ;
+    padding: 2rem;
+    border:1px solid #00fffe
+
+}
